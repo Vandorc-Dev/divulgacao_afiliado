@@ -1,0 +1,102 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  color: #fff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+
+header > h1{
+  font-weight: 500;
+  font-size: 3em;
+  margin-top: 20px;
+  margin-bottom: 24px;
+}
+
+.link{
+  width: 100%;
+  text-align: center;
+}
+
+#container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+}
+
+.content-main{
+  display: flex;
+color: #fff;
+}
+
+
+.btn{
+  margin-top: 30px;
+  color: #fff;
+  text-align: center;
+}
+
+.btn button{
+  padding: 16px;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 400;
+  background-color: rgb(243, 154, 70);
+  box-shadow: 2px 2px 5px #afadad;
+}
+
+
+.btn button:hover{
+  background-color: rgb(231, 63, 12);
+}
+
+.btn > p{
+  margin-top: 40px;
+  font-size: 22px;
+}
+
+.banner{
+  padding: 10px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.banner img{
+  max-width: 48%;
+  justify-content: center;
+}
+/* Layout Responsivo */
+@media screen and (max-width: 768px) {
+    body {
+      font-size: 14px;
+    }
+  
+    h1 {
+      font-size: 24px;
+    }
+
+
+  
+    .destaque {
+      padding: 30px;
+    }
+  
+    h2 {
+      font-size: 20px;
+    }
+  
+    button {
+      font-size: 16px;
+    }
+  }
+  
